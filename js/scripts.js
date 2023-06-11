@@ -123,4 +123,33 @@
         });
     });
 
+    // Project Collapsing Sections
+    $('#mmx-less').click(function(e){
+        e.preventDefault();
+        $(this).fadeOut(300, function() {
+            $('#mmx-more').fadeOut(300);
+        });
+    });
+    
+    $('#ars-less').click(function(e){
+        e.preventDefault();
+        $(this).fadeIn(300, function() {
+            $('#ars-more').fadeOut(300);
+        });
+    });
+    
+    $('#mar-less').click(function(e){
+        e.preventDefault();
+        $(this).fadeIn(300, function() {
+            $('#mar-more').fadeOut(300);
+        });
+    });
+    
+    $('#tuba-less').click(function(e){
+        e.preventDefault();
+        $(this).fadeIn(300, function() {
+            $('#tuba-more').fadeOut(300);
+        });
+    });
+
 })(jQuery);
